@@ -7,7 +7,7 @@
 function generatePassword() {
   // confirm password length
   var confirmPasslength = prompt(
-    "How long of a password do you want (8-120 characters)?"
+    "How long of a password do you want (8-128 characters)?"
   );
   // while loop forces user to select between 8-128 characters
   while (
