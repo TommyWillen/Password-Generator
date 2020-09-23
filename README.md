@@ -1,9 +1,9 @@
 # Password-Generator
 # Responsive-Portfolio
 
-Explore the github [project repo](https://github.com/TommyWillen/Responsive-Portfolio)
+Explore the github [project repo](https://github.com/TommyWillen/Password-Generator/)
 
-View the [github-pages](https://tommywillen.github.io/Responsive-Portfolio/)
+View the [github-pages](https://tommywillen.github.io/Password-Generator/)
 
 ## Table of Contents
 
@@ -14,6 +14,7 @@ View the [github-pages](https://tommywillen.github.io/Responsive-Portfolio/)
     - [Random Password](#random-password)
         - [Pick and Shuffle Functions](#pick-and-shuffle-functions)
     - [Video Tutorial](#Video-Tutorial)
+    - [Older Versions](#Older-Versions)
 - [Installation](#installation)
 
 - [Roadmap](#roadmap)
@@ -55,7 +56,7 @@ I then took the object and combined the variable property values into an array a
 
 ### Random Password
 
-Once I created the string based on user information, I then randomly selected characters to create the password
+Once I created the string based on user information, I then randomly selected characters to create the password.
 - To ensure I included at least one of the requested characters, I first selected one random character from each of the requested character property strings.
 - I then randomly selected the remaining characters from the combined string.
 
@@ -66,6 +67,9 @@ To pick the random characters from the different strings I utilized a pick metho
 
 The shuffle function was used to shuffle the characters in the generated password. The reason I used this function was because the string I created whould not be as random because the first 2-4 characters would be specific character types and not random character types.
 - How this function works is that is converts the string used into an array and randomly selects the values to create a different order of the characters then returns it back as a string.
+
+### Older Versions
+I also included two older versions of the generator. The truely-random-script file occasionally lost requested characters for smaller passwords while the oldGenerator file was much messier and contained more if statements than needed.
 
 ### Video Tutorial
 
