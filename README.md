@@ -1,5 +1,4 @@
 # Password-Generator
-# Responsive-Portfolio
 
 Explore the github [project repo](https://github.com/TommyWillen/Password-Generator/)
 
